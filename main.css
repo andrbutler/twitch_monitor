@@ -1,0 +1,65 @@
+@import url(reset.css);
+html{
+   font-family: "Times New Roman", Georgia, Serif;
+}
+h1{
+  text-align: center;
+  font-size: 65px;
+}
+
+#channels{
+  background: #2f8ee5;
+  margin-right:200px;
+  margin-left:200px;
+  border: 4px solid #000000;
+}
+ul {
+  display:flex;
+  height: auto;
+  background: #EAF3FC;
+  border-bottom: 2px solid #000000;
+  border-top: 2px solid #000000;
+  margin-bottom: 3px;
+  
+}
+.logo { 
+  border: 4px solid #000000; 
+  width: 75px;
+  height: 75px; 
+}
+.logo img{
+  position:inherit;
+  width:75px;
+  height:auto;
+}
+.info{
+  margin-right: 3px;
+  margin-left:4px;
+  font-size:16px;
+}
+.off{
+  padding-top: 3px;
+  font-size: 24px;
+}
+.name{
+  font-size:30px;
+}
+
+.error{
+	background: #999999;
+}
+@media screen and (max-width: 738px){
+	#channels{
+  margin-right:5px;
+  margin-left:5px;
+}
+}
+@media screen and (max-width: 350px){
+  .logo{
+    width: 50px;
+    height:50px;
+  }
+   .logo img{
+    width: 50px;
+  }
+}
