@@ -6,10 +6,6 @@ var users = [
 	user: '',
 	stream: ''
 	}, 
-	{name: 'cretetion', 
-	user: '',
-	stream: ''
-	}, 
 	{name: 'freecodecamp', 
 	user: '',
 	stream: ''
